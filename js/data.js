@@ -66,7 +66,7 @@ var dataKatalogBuku = [
         edisi: "4",
         stok: 204,
         harga: "Rp 250.000",
-        cover: "img/paud_perkembangan.jpeg"
+        cover: "img/paud_perkembangan.jpg"
     }
 ]
 
