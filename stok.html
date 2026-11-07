@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Stok - Toko Buku Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="stok">
+    <header>
+    <strong>Toko Buku Online</strong>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="stok.html">Katalog</a>
+        <a href="checkout.html">Pemesanan</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="#" id="btnLogout">Logout</a>
+    </nav>
+</header>
+    <main>
+        <section>
+            <h1>Informasi Stok / Katalog</h1>
+            <div class="scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cover</th><th>Kode</th><th>Nama Barang</th><th>Jenis</th>
+                            <th>Edisi</th><th>Stok</th><th>Harga</th>
+                        </tr>
+                    </thead>
+                    <tbody id="isiTabel"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Tambah Stok Baru</h2>
+            <form id="formStok" novalidate>
+                <div class="row2">
+                    <div><label for="kode">Kode Barang</label><input type="text" id="kode"></div>
+                    <div><label for="nama">Nama Barang</label><input type="text" id="nama"></div>
+                    <div><label for="jenis">Jenis Barang</label><input type="text" id="jenis" value="Buku Ajar"></div>
+                    <div><label for="edisi">Edisi</label><input type="number" id="edisi" min="1"></div>
+                    <div><label for="stok">Stok</label><input type="number" id="stok" min="0"></div>
+                    <div><label for="harga">Harga (angka, contoh 180000)</label><input type="number" id="harga" min="0"></div>
+                </div>
+                <p class="error" id="pesanStok"></p>
+                <button type="submit">Tambah</button>
+            </form>
+        </section>
+    </main>
+    <footer><p>UTS Pemrograman Web</p></footer>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

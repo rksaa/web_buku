@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking - Toko Buku Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="tracking">
+    <header>
+    <strong>Toko Buku Online</strong>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="stok.html">Katalog</a>
+        <a href="checkout.html">Pemesanan</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="#" id="btnLogout">Logout</a>
+    </nav>
+</header>
+    <main>
+        <section>
+            <h1>Informasi Pengiriman</h1>
+            <form id="formCari" novalidate>
+                <label for="nomorDO">Nomor Delivery Order</label>
+                <input type="text" id="nomorDO" placeholder="contoh: 20230012">
+                <button type="submit">Cari</button>
+            </form>
+        </section>
+
+        <section id="hasil" hidden>
+            <h2>Hasil Pencarian</h2>
+            <dl>
+                <dt>Nama Pemesan</dt><dd id="tNama"></dd>
+                <dt>Status</dt><dd id="tStatus"></dd>
+                <dt>Ekspedisi</dt><dd id="tEkspedisi"></dd>
+                <dt>Tanggal Kirim</dt><dd id="tTanggal"></dd>
+                <dt>Jenis Paket</dt><dd id="tPaket"></dd>
+                <dt>Total Pembayaran</dt><dd id="tTotal"></dd>
+            </dl>
+            <div class="progress"><div id="tBar"></div></div>
+            <h2>Riwayat Perjalanan</h2>
+            <ul class="timeline" id="tPerjalanan"></ul>
+        </section>
+    </main>
+    <footer><p>UTS Pemrograman Web</p></footer>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

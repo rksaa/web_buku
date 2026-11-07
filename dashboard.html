@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Toko Buku Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="dashboard">
+    <header>
+    <strong>Toko Buku Online</strong>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="stok.html">Katalog</a>
+        <a href="checkout.html">Pemesanan</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="#" id="btnLogout">Logout</a>
+    </nav>
+</header>
+    <main>
+        <section>
+            <h1 id="greeting"></h1>
+            <p>Silakan pilih menu di bawah ini.</p>
+        </section>
+        <section class="menu">
+            <a class="btn" href="stok.html">Informasi Stok / Katalog</a>
+            <a class="btn" href="tracking.html">Tracking Pengiriman</a>
+            <a class="btn" href="checkout.html">Laporan Pemesanan</a>
+            <button type="button" id="btnHistory">History Transaksi</button>
+        </section>
+    </main>
+
+    <div class="modal" id="modalHistory">
+        <div class="modal-content">
+            <h2>History Transaksi</h2>
+            <ul id="isiHistory"></ul>
+            <button type="button" class="secondary" id="tutupHistory">Tutup</button>
+        </div>
+    </div>
+    <footer><p>UTS Pemrograman Web</p></footer>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
