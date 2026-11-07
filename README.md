@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Laporan Langkah demi Langkah - UTS Pemrograman Web 1
+=======
+ Laporan Langkah demi Langkah - UTS Pemrograman Web 1
+>>>>>>> ff41995737012321ab8829afe642a64ada0036fb
 **Aplikasi Web Pemesanan Buku (Toko Buku Online)**
 
 Urutan pengerjaan mengikuti tiga indikator soal: **HTML** (struktur), **CSS** (tampilan), lalu **JavaScript** (interaksi). Setiap langkah dilengkapi screenshot hasilnya.
