@@ -1010,21 +1010,6 @@ function initTracking() {
 
 ---
 
-## Langkah 6 - Pengecekan akhir
 
-- [ ] Login benar masuk ke dashboard, login salah muncul alert.
-- [ ] Tombol Lupa Password dan Daftar membuka modal.
-- [ ] Semua menu dashboard bisa dibuka dan Logout berfungsi.
-- [ ] Tidak ada error merah di Console browser (F12).
-- [ ] Struktur folder sama seperti di soal.
 
----
 
-## Bahan penjelasan video (maksimal 15 menit)
-
-1. **Struktur file** (1 menit): alasan memisah HTML, `style.css`, `script.js`, `data.js` (modularitas).
-2. **HTML semantik** (2 menit): `header`, `nav`, `main`, `section`, `form`, `label`, `table`, `footer`.
-3. **CSS** (2 menit): satu file external untuk semua halaman, layout grid, tampilan modal, responsif dengan `@media`.
-4. **JavaScript DOM** (4 menit): tabel dibuat dengan `createElement`, tambah baris stok, keranjang yang bisa diubah/dihapus, progress bar tracking.
-5. **Validasi dan alert** (2 menit): login salah, form kosong, format email, stok melebihi batas, nomor DO tidak ditemukan.
-6. **Demo alur utama** (3 menit): login, dashboard, katalog, pemesanan, tracking.
